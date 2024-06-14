@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		540E02EC2C1CBE1400550A4E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 540E02EB2C1CBE1400550A4E /* main.cpp */; };
+		540E02F52C1CBF8400550A4E /* banking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 540E02F32C1CBF8400550A4E /* banking.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		540E02E82C1CBE1400550A4E /* Banking System */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Banking System"; sourceTree = BUILT_PRODUCTS_DIR; };
 		540E02EB2C1CBE1400550A4E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		540E02F32C1CBF8400550A4E /* banking.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = banking.cpp; sourceTree = "<group>"; };
+		540E02F42C1CBF8400550A4E /* banking.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = banking.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				540E02EB2C1CBE1400550A4E /* main.cpp */,
+				540E02F32C1CBF8400550A4E /* banking.cpp */,
+				540E02F42C1CBF8400550A4E /* banking.hpp */,
 			);
 			path = "Banking System";
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				540E02F52C1CBF8400550A4E /* banking.cpp in Sources */,
 				540E02EC2C1CBE1400550A4E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
