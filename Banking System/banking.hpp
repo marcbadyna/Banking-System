@@ -20,7 +20,7 @@ private:
     std::string date;
 public:
     Transaction(int, double, std::string, std::string);
-    void displayTransaction();
+    void displayTransaction() const;
 };
 
 class Account {
@@ -36,6 +36,7 @@ public:
     double getBalance() const;
     void displayAccountDetails() const;
     void displayTransactions() const;
+    int getAccountNumber() const;
 };
 
 class Customer {
