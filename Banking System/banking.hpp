@@ -48,6 +48,7 @@ public:
     Customer(int, std::string);
     void addAccount(Account);
     void removeAccount(int);
+    int getCustomerId() const;
     void displayCustomerDetails() const;
     void displayAllTransactions() const;
 };
@@ -62,6 +63,8 @@ public:
     void addCustomer(int, std::string);
     void displayAllAccounts() const;
     void displayAllCustomers() const;
+    void deposit(int accountNumber, double amount, std::string date);
+    void withdraw(int accountNumber, double amount, std::string date);
 };
 
 #endif /* banking_hpp */
